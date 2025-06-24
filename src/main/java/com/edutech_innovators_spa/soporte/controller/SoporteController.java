@@ -18,7 +18,7 @@ import java.util.List;
  * Permite gestionar incidencias y proveedores.
  */
 @RestController
-@RequestMapping("/api/soporte")
+@RequestMapping("/api/v1/soporte")
 @Tag(name = "Soporte Tecnico", description = ("PENDIENTE"))
 public class SoporteController {
 
